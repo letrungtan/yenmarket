@@ -1,0 +1,6 @@
+Nếu API trả về chậm, tôi sẽ debug và tối ưu bằng cách:
+- Sử dụng lazy-loading hoặc phân trang (pagination/infinite scroll) để tải dữ liệu dần dần.
+- Áp dụng caching phía server (Redis, memory cache) hoặc Nuxt route rules (ISR).
+- Gỡ lỗi bằng Network tab, đo thời gian phản hồi từng API call.
+- Dùng loading/skeleton để cải thiện UX trong thời gian đợi.
+- Tối ưu cấu trúc JSON trả về, giới hạn field không cần thiết.
