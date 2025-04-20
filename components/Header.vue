@@ -5,11 +5,11 @@
       <!-- <button>Login</button> -->
       <div class="flex gap-8 flex justify-center items-center">
         <div class="flex justify-center items-center border-2 border-[#ca2628] rounded-[10px] w-[2.7rem] h-[2.7rem] relative aspect-square hidden sm:flex">
-          <img src="assets/images/icons/icon-cart.svg" class="text-[#ca2628]">
+          <img src="assets/images/icons/icon-cart.svg" class="text-[#ca2628]" alt="cart icon">
         </div>
         <div class="flex gap-3">
-          <img src="assets/images/icons/flag-vi.svg" class="min-w-[38px] w-[38px]">
-          <img src="assets/images/icons/flag-en.svg" class="min-w-[38px] w-[38px]">
+          <img src="assets/images/icons/flag-vi.svg" class="min-w-[38px] w-[38px]" alt="flag icon">
+          <img src="assets/images/icons/flag-en.svg" class="min-w-[38px] w-[38px]" alt="flag icon">
         </div>
       </div>
     </header>

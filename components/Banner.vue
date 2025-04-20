@@ -1,4 +1,5 @@
 <script setup>
+  /*My public library*/
   import { InfiniteCarousel, Slide } from 'infinite-carousel-vue'
   import banner_1 from 'assets/images/banner_1.jpg'
   import banner_2 from 'assets/images/banner_2.jpg'
@@ -15,7 +16,7 @@
       interval="1000"
     >
       <Slide v-for="(slide, index) in slides" :key="index">
-        <img :src="slide" />
+        <img :src="slide" alt="slide image"/>
       </Slide>
     </InfiniteCarousel>
   </div>
